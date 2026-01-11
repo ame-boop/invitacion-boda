@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Invitación | Kristel + Guilia | Italia 2026</title>
+  <meta name="description" content="Invitación digital: Kristel + Guilia. Cortina d'Ampezzo, Italia. Detalles y RSVP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand__mark" aria-hidden="true">✶</span>
+        <span class="brand__text">Italia 2026</span>
+      </a>
+
+      <button class="menuBtn" id="menuBtn" aria-expanded="false" aria-controls="nav">
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="srOnly">Abrir menú</span>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#historia">Portada</a>
+        <a href="#detalles">Detalles</a>
+        <a href="#lugar">Lugar</a>
+        <a href="#dresscode">Dress code</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#galeria">Galería</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-label="Portada de la invitación">
+      <div class="container hero__grid">
+        <div class="hero__card">
+          <p class="kicker">INVITAZIONE</p>
+          <h1 class="title">
+            <span class="title__line">Boda de</span>
+            <span class="title__names" id="coupleNames">Kristel &amp; Guilia</span>
+          </h1>
+
+          <p class="subtitle">
+            Con mucha alegría te invitamos a celebrar con nosotros en Italia.
+          </p>
+
+          <div class="hero__meta">
+            <div class="pill">
+              <span class="pill__label">Fecha</span>
+              <span class="pill__value" id="weddingDateText">06/06/2026</span>
+            </div>
+            <div class="pill">
+              <span class="pill__label">Hora</span>
+              <span class="pill__value" id="weddingTimeText">17:30</span>
+            </div>
+            <div class="pill">
+              <span class="pill__label">Lugar</span>
+              <span class="pill__value" id="weddingCityText">Cortina d'Ampezzo, Italia</span>
+            </div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#rsvp">Confirmar asistencia</a>
+            <a class="btn btn--ghost" href="#detalles">Ver detalles</a>
+          </div>
+
+          <div class="countdown" aria-label="Cuenta regresiva">
+            <div class="countdown__header">
+              <span class="countdown__label">Falta</span>
+              <span class="countdown__note" id="countdownNote">para el gran día</span>
+            </div>
+            <div class="countdown__grid" id="countdown">
+              <div class="timebox">
+                <span class="timebox__num" id="cdDays">--</span>
+                <span class="timebox__label">días</span>
+              </div>
+              <div class="timebox">
+                <span class="timebox__num" id="cdHours">--</span>
+                <span class="timebox__label">horas</span>
+              </div>
+              <div class="timebox">
+                <span class="timebox__num" id="cdMins">--</span>
+                <span class="timebox__label">min</span>
+              </div>
+              <div class="timebox">
+                <span class="timebox__num" id="cdSecs">--</span>
+                <span class="timebox__label">seg</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__visual" aria-label="Decoración">
+          <div class="frame">
+            <!-- Si quieres foto: pon assets/hero.jpg y descomentá -->
+            <!-- <img src="assets/hero.jpg" alt="Foto de Kristel y Guilia" class="frame__img"> -->
+
+            <div class="frame__placeholder" aria-hidden="true">
+              <div class="medallion">
+                <div class="medallion__inner">
+                  <span class="medallion__top">CORTINA</span>
+                  <span class="medallion__mid">06·06</span>
+                  <span class="medallion__bot">Amore • Famiglia • Festa</span>
+                </div>
+              </div>
+              <div class="ornament" aria-hidden="true"></div>
+            </div>
+
+            <div class="frame__caption">
+              <p class="quote">“La vita è più bella quando la celebramos juntos.”</p>
+              <p class="small">— con cariño, la familia</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="historia">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">Estás invitad@</h2>
+          <p class="lead">
+            Una celebración íntima, elegante y sin estrés. Lo importante: compartir, agradecer y honrar la tradición.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3 class="h3">Ceremonia</h3>
+            <p>Un momento emotivo y clásico, con detalles simples pero con intención.</p>
+          </article>
+          <article class="card">
+            <h3 class="h3">Recepción</h3>
+            <p>Brindis, cena, música y pista. Sí: vamos a bailar como si estuviéramos en una película italiana.</p>
+          </article>
+          <article class="card">
+            <h3 class="h3">Detalles útiles</h3>
+            <p>Todo lo importante (horarios, lugar, dress code y RSVP) está aquí abajo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="detalles">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">Detalles del evento</h2>
+          <p class="lead">Guía rápida para que llegues bien y disfrutes mejor.</p>
+        </div>
+
+        <div class="detailsGrid">
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">🗓️</div>
+            <div class="detail__body">
+              <p class="detail__title">Fecha</p>
+              <p class="detail__text" id="dateLongText">Sábado 06 de junio de 2026</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">⏰</div>
+            <div class="detail__body">
+              <p class="detail__title">Hora</p>
+              <p class="detail__text" id="timeLongText">17:30 (llegar 17:00)</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">📍</div>
+            <div class="detail__body">
+              <p class="detail__title">Lugar</p>
+              <p class="detail__text" id="venueText">Cortina d'Ampezzo, Belluno, Italia</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">🍽️</div>
+            <div class="detail__body">
+              <p class="detail__title">Cena</p>
+              <p class="detail__text">Opciones vegetarianas disponibles. Avisanos en el RSVP.</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">🧸</div>
+            <div class="detail__body">
+              <p class="detail__title">Niñ@s</p>
+              <p class="detail__text">Evento pensado para adultos. Si esto te complica, escribinos.</p>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__icon" aria-hidden="true">🎁</div>
+            <div class="detail__body">
+              <p class="detail__title">Regalos</p>
+              <p class="detail__text">Tu presencia es el mejor regalo. Si querés aportar, habrá info el día del evento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lugar">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">Lugar</h2>
+          <p class="lead">Te dejamos el link para que lo abras en el celu y listo.</p>
+        </div>
+
+        <div class="mapCard">
+          <div class="mapCard__left">
+            <h3 class="h3" id="venueName">Cortina d'Ampezzo</h3>
+            <p class="muted" id="venueAddress">Belluno, Italia</p>
+
+            <div class="mapCard__actions">
+              <a class="btn btn--primary" id="mapsLink" href="https://www.google.com/maps" target="_blank" rel="noopener">
+                Abrir en Google Maps
+              </a>
+              <button class="btn btn--ghost" id="copyAddressBtn" type="button">
+                Copiar dirección
+              </button>
+            </div>
+
+            <p class="tiny" id="copyHint" aria-live="polite"></p>
+          </div>
+
+          <div class="mapCard__right" aria-hidden="true">
+            <div class="mapPreview">
+              <div class="mapPreview__pin"></div>
+              <div class="mapPreview__lines"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="dresscode">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">Dress code</h2>
+          <p class="lead">Elegante, sobrio y cómodo. Clásico &amp; timeless.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3 class="h3">Código</h3>
+            <p><strong>Formal / Cocktail</strong>. Colores neutros, telas lindas, cortes simples.</p>
+          </article>
+          <article class="card">
+            <h3 class="h3">Tip útil</h3>
+            <p>Si es al aire libre: llevá algo liviano para la noche (puede refrescar).</p>
+          </article>
+          <article class="card">
+            <h3 class="h3">Por favor evitar</h3>
+            <p>Blanco (reservado) y looks ultra informales. Lo demás: libertad con buen gusto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="rsvp">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">RSVP</h2>
+          <p class="lead">Confirmá en el formulario. Rápido, ordenado y queda registrado.</p>
+        </div>
+
+        <div class="rsvpCard">
+          <div class="rsvpCard__copy">
+            <p class="muted">
+              Ideal confirmar antes del <span id="rsvpDeadlineText">15 de abril de 2026</span>.
+              Si tenés alergias / dieta especial, contalo ahí.
+            </p>
+
+            <div class="rsvpForm" aria-label="Datos para RSVP (opcional)">
+              <label class="field">
+                <span class="field__label">Tu nombre</span>
+                <input id="guestName" class="field__input" type="text" placeholder="Ej: Ame" autocomplete="name" />
+              </label>
+
+              <label class="field">
+                <span class="field__label">¿Asistís?</span>
+                <select id="attendance" class="field__input">
+                  <option value="Sí, asisto">Sí, asisto</option>
+                  <option value="No puedo asistir">No puedo asistir</option>
+                  <option value="A confirmar">A confirmar</option>
+                </select>
+              </label>
+
+              <label class="field field--full">
+                <span class="field__label">Comentarios (opcional)</span>
+                <input id="notes" class="field__input" type="text" placeholder="Ej: vegetariana / alergias / etc." />
+              </label>
+            </div>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" id="formBtn" href="#" target="_blank" rel="noopener">
+                Abrir Formulario RSVP
+              </a>
+              <button class="btn btn--ghost" id="copyRsvpBtn" type="button">
+                Copiar mensaje (opcional)
+              </button>
+            </div>
+
+            <p class="tiny" id="rsvpHint" aria-live="polite"></p>
+          </div>
+
+          <div class="rsvpCard__aside" aria-hidden="true">
+            <div class="seal">
+              <div class="seal__ring"></div>
+              <div class="seal__txt">
+                <span class="seal__top">RSVP</span>
+                <span class="seal__mid">Grazie</span>
+                <span class="seal__bot">con amore</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="galeria">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="h2">Galería</h2>
+          <p class="lead">Opcional. Si no tenés fotos aún, dejalo igual: se ve pro.</p>
+        </div>
+
+        <div class="gallery">
+          <button class="gItem" type="button" data-img="" data-caption="Momentos" aria-label="Abrir imagen 1">
+            <div class="gItem__ph" aria-hidden="true"></div>
+            <span class="gItem__cap">Momentos</span>
+          </button>
+          <button class="gItem" type="button" data-img="" data-caption="Amore" aria-label="Abrir imagen 2">
+            <div class="gItem__ph" aria-hidden="true"></div>
+            <span class="gItem__cap">Amore</span>
+          </button>
+          <button class="gItem" type="button" data-img="" data-caption="Dolomitas" aria-label="Abrir imagen 3">
+            <div class="gItem__ph" aria-hidden="true"></div>
+            <span class="gItem__cap">Dolomitas</span>
+          </button>
+          <button class="gItem" type="button" data-img="" data-caption="Familia" aria-label="Abrir imagen 4">
+            <div class="gItem__ph" aria-hidden="true"></div>
+            <span class="gItem__cap">Familia</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="footer__small">
+          <span class="footer__mark" aria-hidden="true">✶</span>
+          Kristel + Guilia · Cortina d'Ampezzo · 06/06/2026
+        </p>
+        <a class="footer__link" href="#inicio">Volver arriba</a>
+      </div>
+    </footer>
+
+    <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Vista de imagen">
+      <div class="modal__overlay" id="modalOverlay" tabindex="-1"></div>
+      <div class="modal__panel" role="document">
+        <button class="modal__close" id="modalClose" type="button" aria-label="Cerrar">✕</button>
+        <img class="modal__img" id="modalImg" alt="" />
+        <p class="modal__cap" id="modalCap"></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
